@@ -1,21 +1,21 @@
 //-------------主要公用变量获取--------
 
-var leftList = document.querySelector('.left_list');
-var listBox = leftList.querySelector('.list');
+var leftList = document.querySelector('.left_list'); //左側树结构显示框
+var listBox = leftList.querySelector('.list');//左側树结构显示框
 
 
-var navBox = document.querySelector('.nav');
-var btns = document.querySelectorAll('.btn button');
+var navBox = document.querySelector('.nav');//面包屑导航
+var btns = document.querySelectorAll('.btn button');//顶部操作按钮
 
 var listShow = document.querySelector('.listShow'); //点击移动到 弹出的操作框
 var listShowBox = listShow.querySelector('.listShowBox'); //移动目标显示框
 
 
-var main = document.querySelector('.main');
-var fileBox = document.querySelector('.file-container');
-var fileitems = fileBox.children;
+var main = document.querySelector('.main');//右侧页面最大容器
+var fileBox = document.querySelector('.file-container');//右侧存放文件以及文件夹的容器
+var fileitems = fileBox.children;//当前容器里面所有的文件以及文件夹
 
-var fileWrap = document.querySelector('.file-box');
+var fileWrap = document.querySelector('.file-box');//右侧页面容器
 
 var isRec = fileBox.classList.contains('rec'); //如果是回收站页面 调用另外一套数据
 var data = getData() || user_data;

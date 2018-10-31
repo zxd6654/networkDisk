@@ -1,4 +1,4 @@
-var user_data = {
+let user_data = {
 	"maxId":11,
 	"0":{
 		"name":"根目录",
@@ -154,5 +154,5 @@ var data_menu = {
 		"background":'url(./image/upload.png)4px 18px no-repeat',
 		"background-size":'12%'
 	}
-}
+};
 
