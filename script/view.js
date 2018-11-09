@@ -24,7 +24,7 @@ function creatNavs(data, isRec) {
         return str = `<a href = "javascript:;" data-index ="${isRec ? 8 : 0}">${isRec ? '回收站' : '根目录'}</a>`;
     }
 
-    str = `<a href = "javascript:;"class = "back">返回上一级 |</a>`;
+    str = `<a href = "javascript:;" class = "back">返回上一级 |</a>`;
     for (i = 0; i < len; i++) {
 
         str += `<a href = "javascript:;" data-index ="${data[i].id}">${data[i].name}</a>`;
